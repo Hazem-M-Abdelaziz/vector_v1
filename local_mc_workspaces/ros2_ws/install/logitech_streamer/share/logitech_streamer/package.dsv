@@ -1,0 +1,6 @@
+source;share/logitech_streamer/hook/pythonpath.ps1
+source;share/logitech_streamer/hook/pythonpath.dsv
+source;share/logitech_streamer/hook/pythonpath.sh
+source;share/logitech_streamer/hook/ament_prefix_path.ps1
+source;share/logitech_streamer/hook/ament_prefix_path.dsv
+source;share/logitech_streamer/hook/ament_prefix_path.sh

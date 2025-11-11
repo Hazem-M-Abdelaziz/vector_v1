@@ -1,0 +1,24 @@
+[0.944s] Invoking command in '/home/mrs_lab/ros2_ws/src/logitech_streamer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mrs_lab/ros2_ws/build/logitech_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/logitech_streamer build --build-base /home/mrs_lab/ros2_ws/build/logitech_streamer/build install --record /home/mrs_lab/ros2_ws/build/logitech_streamer/install.log --single-version-externally-managed install_data
+[1.248s] running egg_info
+[1.271s] writing ../../build/logitech_streamer/logitech_streamer.egg-info/PKG-INFO
+[1.271s] writing dependency_links to ../../build/logitech_streamer/logitech_streamer.egg-info/dependency_links.txt
+[1.271s] writing entry points to ../../build/logitech_streamer/logitech_streamer.egg-info/entry_points.txt
+[1.271s] writing requirements to ../../build/logitech_streamer/logitech_streamer.egg-info/requires.txt
+[1.272s] writing top-level names to ../../build/logitech_streamer/logitech_streamer.egg-info/top_level.txt
+[1.319s] reading manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'
+[1.319s] writing manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'
+[1.320s] running build
+[1.320s] running build_py
+[1.320s] copying logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer
+[1.321s] running install
+[1.327s] running install_lib
+[1.351s] copying /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer
+[1.351s] byte-compiling /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer/logitech_input_publisher.py to logitech_input_publisher.cpython-312.pyc
+[1.352s] running install_data
+[1.353s] running install_egg_info
+[1.377s] removing '/home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer-0.0.0-py3.12.egg-info' (and everything under it)
+[1.377s] Copying ../../build/logitech_streamer/logitech_streamer.egg-info to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer-0.0.0-py3.12.egg-info
+[1.378s] running install_scripts
+[1.531s] Installing logitech_input_publisher script to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/logitech_streamer
+[1.532s] writing list of installed files to '/home/mrs_lab/ros2_ws/build/logitech_streamer/install.log'
+[1.562s] Invoked command in '/home/mrs_lab/ros2_ws/src/logitech_streamer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mrs_lab/ros2_ws/build/logitech_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/logitech_streamer build --build-base /home/mrs_lab/ros2_ws/build/logitech_streamer/build install --record /home/mrs_lab/ros2_ws/build/logitech_streamer/install.log --single-version-externally-managed install_data

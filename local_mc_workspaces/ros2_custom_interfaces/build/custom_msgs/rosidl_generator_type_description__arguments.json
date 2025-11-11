@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs",
+  "output_dir": "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/rosidl_generator_type_description/custom_msgs",
+  "idl_tuples": [
+    "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs:msg/LogitechInput.idl"
+  ]
+}

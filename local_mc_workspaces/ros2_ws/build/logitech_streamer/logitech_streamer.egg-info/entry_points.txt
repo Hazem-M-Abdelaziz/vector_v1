@@ -1,0 +1,2 @@
+[console_scripts]
+logitech_input_publisher = logitech_streamer.logitech_input_publisher:main

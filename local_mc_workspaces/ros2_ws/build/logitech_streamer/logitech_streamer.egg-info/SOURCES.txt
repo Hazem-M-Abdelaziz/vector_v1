@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/logitech_streamer/logitech_streamer.egg-info/PKG-INFO
+../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt
+../../build/logitech_streamer/logitech_streamer.egg-info/dependency_links.txt
+../../build/logitech_streamer/logitech_streamer.egg-info/entry_points.txt
+../../build/logitech_streamer/logitech_streamer.egg-info/requires.txt
+../../build/logitech_streamer/logitech_streamer.egg-info/top_level.txt
+../../build/logitech_streamer/logitech_streamer.egg-info/zip-safe
+logitech_streamer/__init__.py
+logitech_streamer/logitech_input_publisher.py
+resource/logitech_streamer
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_msgs__py",
+		"source" : "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/custom_msgs__py"
+	}
+}

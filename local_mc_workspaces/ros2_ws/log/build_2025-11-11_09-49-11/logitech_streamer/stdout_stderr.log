@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/logitech_streamer/logitech_streamer.egg-info
+writing ../../build/logitech_streamer/logitech_streamer.egg-info/PKG-INFO
+writing dependency_links to ../../build/logitech_streamer/logitech_streamer.egg-info/dependency_links.txt
+writing entry points to ../../build/logitech_streamer/logitech_streamer.egg-info/entry_points.txt
+writing requirements to ../../build/logitech_streamer/logitech_streamer.egg-info/requires.txt
+writing top-level names to ../../build/logitech_streamer/logitech_streamer.egg-info/top_level.txt
+writing manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'
+reading manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'
+writing manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build
+creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib
+creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer
+copying logitech_streamer/__init__.py -> /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer
+copying logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer
+running install
+running install_lib
+creating /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer
+copying /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer/__init__.py -> /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer
+copying /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer
+byte-compiling /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer/logitech_input_publisher.py to logitech_input_publisher.cpython-312.pyc
+running install_data
+creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index
+creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index
+creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index/packages
+copying resource/logitech_streamer -> /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index/packages
+copying package.xml -> /home/mrs_lab/ros2_ws/install/logitech_streamer/share/logitech_streamer
+running install_egg_info
+Copying ../../build/logitech_streamer/logitech_streamer.egg-info to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing logitech_input_publisher script to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/logitech_streamer
+writing list of installed files to '/home/mrs_lab/ros2_ws/build/logitech_streamer/install.log'

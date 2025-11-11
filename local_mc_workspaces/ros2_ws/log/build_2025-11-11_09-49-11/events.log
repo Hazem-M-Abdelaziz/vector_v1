@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000570] (logitech_streamer) JobQueued: {'identifier': 'logitech_streamer', 'dependencies': OrderedDict()}
+[0.000605] (logitech_streamer) JobStarted: {'identifier': 'logitech_streamer'}
+[0.099800] (-) TimerEvent: {}
+[0.200072] (-) TimerEvent: {}
+[0.300332] (-) TimerEvent: {}
+[0.400558] (-) TimerEvent: {}
+[0.500868] (-) TimerEvent: {}
+[0.601178] (-) TimerEvent: {}
+[0.701494] (-) TimerEvent: {}
+[0.801698] (-) TimerEvent: {}
+[0.901889] (-) TimerEvent: {}
+[1.002144] (-) TimerEvent: {}
+[1.102403] (-) TimerEvent: {}
+[1.202624] (-) TimerEvent: {}
+[1.302968] (-) TimerEvent: {}
+[1.403287] (-) TimerEvent: {}
+[1.503604] (-) TimerEvent: {}
+[1.603962] (-) TimerEvent: {}
+[1.704565] (-) TimerEvent: {}
+[1.804874] (-) TimerEvent: {}
+[1.905132] (-) TimerEvent: {}
+[2.005394] (-) TimerEvent: {}
+[2.105699] (-) TimerEvent: {}
+[2.205937] (-) TimerEvent: {}
+[2.306124] (-) TimerEvent: {}
+[2.406339] (-) TimerEvent: {}
+[2.506576] (-) TimerEvent: {}
+[2.606835] (-) TimerEvent: {}
+[2.707123] (-) TimerEvent: {}
+[2.807372] (-) TimerEvent: {}
+[2.907634] (-) TimerEvent: {}
+[3.007895] (-) TimerEvent: {}
+[3.108144] (-) TimerEvent: {}
+[3.208511] (-) TimerEvent: {}
+[3.280723] (logitech_streamer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/logitech_streamer', 'build', '--build-base', '/home/mrs_lab/ros2_ws/build/logitech_streamer/build', 'install', '--record', '/home/mrs_lab/ros2_ws/build/logitech_streamer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrs_lab/ros2_ws/src/logitech_streamer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '280e4f27-84e1-496e-840c-d1dea2073c03', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrs_lab', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mrs_lab/ros2_custom_interfaces/install/custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mrs_lab', 'OLDPWD': '/home/mrs_lab/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2102', 'SYSTEMD_EXEC_PID': '2360', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3347', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mrs_lab/ros2_custom_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrs_lab', 'JOURNAL_STREAM': '9:18762', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrs_lab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mrs-research-group:@/tmp/.ICE-unix/2323,unix/mrs-research-group:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '73037c32dc3a462eaa9d280a285c1c95', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VWF3F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mrs_lab/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:65e7eb47-23c8-41f7-8b80-4aef3ee63c8d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrs_lab/ros2_ws/build/logitech_streamer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrs_lab/ros2_ws/build/logitech_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages:/home/mrs_lab/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mrs_lab/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.308598] (-) TimerEvent: {}
+[3.408821] (-) TimerEvent: {}
+[3.509056] (-) TimerEvent: {}
+[3.558127] (logitech_streamer) StdoutLine: {'line': b'running egg_info\n'}
+[3.558454] (logitech_streamer) StdoutLine: {'line': b'creating ../../build/logitech_streamer/logitech_streamer.egg-info\n'}
+[3.581060] (logitech_streamer) StdoutLine: {'line': b'writing ../../build/logitech_streamer/logitech_streamer.egg-info/PKG-INFO\n'}
+[3.581326] (logitech_streamer) StdoutLine: {'line': b'writing dependency_links to ../../build/logitech_streamer/logitech_streamer.egg-info/dependency_links.txt\n'}
+[3.581499] (logitech_streamer) StdoutLine: {'line': b'writing entry points to ../../build/logitech_streamer/logitech_streamer.egg-info/entry_points.txt\n'}
+[3.581645] (logitech_streamer) StdoutLine: {'line': b'writing requirements to ../../build/logitech_streamer/logitech_streamer.egg-info/requires.txt\n'}
+[3.581794] (logitech_streamer) StdoutLine: {'line': b'writing top-level names to ../../build/logitech_streamer/logitech_streamer.egg-info/top_level.txt\n'}
+[3.581919] (logitech_streamer) StdoutLine: {'line': b"writing manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'\n"}
+[3.609137] (-) TimerEvent: {}
+[3.627344] (logitech_streamer) StdoutLine: {'line': b"reading manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'\n"}
+[3.628072] (logitech_streamer) StdoutLine: {'line': b"writing manifest file '../../build/logitech_streamer/logitech_streamer.egg-info/SOURCES.txt'\n"}
+[3.628369] (logitech_streamer) StdoutLine: {'line': b'running build\n'}
+[3.628479] (logitech_streamer) StdoutLine: {'line': b'running build_py\n'}
+[3.628612] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build\n'}
+[3.628694] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib\n'}
+[3.628809] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer\n'}
+[3.628896] (logitech_streamer) StdoutLine: {'line': b'copying logitech_streamer/__init__.py -> /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer\n'}
+[3.628963] (logitech_streamer) StdoutLine: {'line': b'copying logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer\n'}
+[3.629053] (logitech_streamer) StdoutLine: {'line': b'running install\n'}
+[3.635368] (logitech_streamer) StdoutLine: {'line': b'running install_lib\n'}
+[3.658019] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer\n'}
+[3.658326] (logitech_streamer) StdoutLine: {'line': b'copying /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer/__init__.py -> /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer\n'}
+[3.658482] (logitech_streamer) StdoutLine: {'line': b'copying /home/mrs_lab/ros2_ws/build/logitech_streamer/build/lib/logitech_streamer/logitech_input_publisher.py -> /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer\n'}
+[3.658743] (logitech_streamer) StdoutLine: {'line': b'byte-compiling /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer/__init__.py to __init__.cpython-312.pyc\n'}
+[3.659027] (logitech_streamer) StdoutLine: {'line': b'byte-compiling /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer/logitech_input_publisher.py to logitech_input_publisher.cpython-312.pyc\n'}
+[3.659792] (logitech_streamer) StdoutLine: {'line': b'running install_data\n'}
+[3.659929] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index\n'}
+[3.660066] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index\n'}
+[3.660147] (logitech_streamer) StdoutLine: {'line': b'creating /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index/packages\n'}
+[3.660231] (logitech_streamer) StdoutLine: {'line': b'copying resource/logitech_streamer -> /home/mrs_lab/ros2_ws/install/logitech_streamer/share/ament_index/resource_index/packages\n'}
+[3.660384] (logitech_streamer) StdoutLine: {'line': b'copying package.xml -> /home/mrs_lab/ros2_ws/install/logitech_streamer/share/logitech_streamer\n'}
+[3.660558] (logitech_streamer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.690690] (logitech_streamer) StdoutLine: {'line': b'Copying ../../build/logitech_streamer/logitech_streamer.egg-info to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/python3.12/site-packages/logitech_streamer-0.0.0-py3.12.egg-info\n'}
+[3.692017] (logitech_streamer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.709229] (-) TimerEvent: {}
+[3.809433] (-) TimerEvent: {}
+[3.837229] (logitech_streamer) StdoutLine: {'line': b'Installing logitech_input_publisher script to /home/mrs_lab/ros2_ws/install/logitech_streamer/lib/logitech_streamer\n'}
+[3.837559] (logitech_streamer) StdoutLine: {'line': b"writing list of installed files to '/home/mrs_lab/ros2_ws/build/logitech_streamer/install.log'\n"}
+[3.868169] (logitech_streamer) CommandEnded: {'returncode': 0}
+[3.909534] (-) TimerEvent: {}
+[3.953719] (logitech_streamer) JobEnded: {'identifier': 'logitech_streamer', 'rc': 0}
+[3.954463] (-) EventReactorShutdown: {}

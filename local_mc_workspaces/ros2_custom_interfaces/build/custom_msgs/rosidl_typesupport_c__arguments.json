@@ -1,0 +1,17 @@
+{
+  "package_name": "custom_msgs",
+  "output_dir": "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/rosidl_typesupport_c/custom_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs:msg/LogitechInput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/mrs_lab/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs/msg/LogitechInput.idl"
+  ]
+}

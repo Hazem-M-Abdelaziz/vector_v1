@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: logitech-streamer
+Version: 0.0.0
+Summary: ROS2 node to stream Logitech joystick input to a topic for Arduino control.
+Maintainer: mrs_lab
+Maintainer-email: mrs_lab@todo.todo
+License: MIT
+Provides-Extra: test
