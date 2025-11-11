@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.001546] (rpi_controller) JobQueued: {'identifier': 'rpi_controller', 'dependencies': OrderedDict()}
+[0.001679] (rpi_controller) JobStarted: {'identifier': 'rpi_controller'}
+[0.099188] (-) TimerEvent: {}
+[0.199771] (-) TimerEvent: {}
+[0.300351] (-) TimerEvent: {}
+[0.400935] (-) TimerEvent: {}
+[0.501507] (-) TimerEvent: {}
+[0.602022] (-) TimerEvent: {}
+[0.702533] (-) TimerEvent: {}
+[0.803034] (-) TimerEvent: {}
+[0.903674] (-) TimerEvent: {}
+[1.004535] (-) TimerEvent: {}
+[1.105136] (-) TimerEvent: {}
+[1.205710] (-) TimerEvent: {}
+[1.306263] (-) TimerEvent: {}
+[1.406845] (-) TimerEvent: {}
+[1.507405] (-) TimerEvent: {}
+[1.607955] (-) TimerEvent: {}
+[1.708490] (-) TimerEvent: {}
+[1.808996] (-) TimerEvent: {}
+[1.909511] (-) TimerEvent: {}
+[2.010012] (-) TimerEvent: {}
+[2.110535] (-) TimerEvent: {}
+[2.211040] (-) TimerEvent: {}
+[2.311521] (-) TimerEvent: {}
+[2.412018] (-) TimerEvent: {}
+[2.512555] (-) TimerEvent: {}
+[2.613159] (-) TimerEvent: {}
+[2.713707] (-) TimerEvent: {}
+[2.814204] (-) TimerEvent: {}
+[2.914755] (-) TimerEvent: {}
+[3.015260] (-) TimerEvent: {}
+[3.115823] (-) TimerEvent: {}
+[3.216331] (-) TimerEvent: {}
+[3.316908] (-) TimerEvent: {}
+[3.417454] (-) TimerEvent: {}
+[3.518102] (-) TimerEvent: {}
+[3.619078] (-) TimerEvent: {}
+[3.641923] (rpi_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rpi_controller', 'build', '--build-base', '/home/mrs-rpi/ros2_ws/build/rpi_controller/build', 'install', '--record', '/home/mrs-rpi/ros2_ws/build/rpi_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrs-rpi/ros2_ws/src/rpi_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrs-rpi', 'SSH_CLIENT': '192.168.1.116 60704 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mrs-rpi/install/custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mrs-rpi', 'OLDPWD': '/home/mrs-rpi/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mrs-rpi/install:/home/mrs-rpi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrs-rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mrs-rpi/install/custom_msgs:/home/mrs-rpi/ros2_ws/install/rpi_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrs-rpi/ros2_ws/build/rpi_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.116 60704 192.168.1.193 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrs-rpi/ros2_ws/build/rpi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:/home/mrs-rpi/install/custom_msgs/lib/python3.12/site-packages:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mrs-rpi/install/custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.719232] (-) TimerEvent: {}
+[3.819837] (-) TimerEvent: {}
+[3.920402] (-) TimerEvent: {}
+[4.020992] (-) TimerEvent: {}
+[4.121523] (-) TimerEvent: {}
+[4.222040] (-) TimerEvent: {}
+[4.322547] (-) TimerEvent: {}
+[4.423150] (-) TimerEvent: {}
+[4.524068] (-) TimerEvent: {}
+[4.624629] (-) TimerEvent: {}
+[4.725140] (-) TimerEvent: {}
+[4.820865] (rpi_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.825281] (-) TimerEvent: {}
+[4.907371] (rpi_controller) StdoutLine: {'line': b'writing ../../build/rpi_controller/rpi_controller.egg-info/PKG-INFO\n'}
+[4.908638] (rpi_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/rpi_controller/rpi_controller.egg-info/dependency_links.txt\n'}
+[4.909512] (rpi_controller) StdoutLine: {'line': b'writing entry points to ../../build/rpi_controller/rpi_controller.egg-info/entry_points.txt\n'}
+[4.910291] (rpi_controller) StdoutLine: {'line': b'writing requirements to ../../build/rpi_controller/rpi_controller.egg-info/requires.txt\n'}
+[4.910939] (rpi_controller) StdoutLine: {'line': b'writing top-level names to ../../build/rpi_controller/rpi_controller.egg-info/top_level.txt\n'}
+[4.925470] (-) TimerEvent: {}
+[5.025979] (-) TimerEvent: {}
+[5.087624] (rpi_controller) StdoutLine: {'line': b"reading manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'\n"}
+[5.091151] (rpi_controller) StdoutLine: {'line': b"writing manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'\n"}
+[5.091777] (rpi_controller) StdoutLine: {'line': b'running build\n'}
+[5.092295] (rpi_controller) StdoutLine: {'line': b'running build_py\n'}
+[5.092787] (rpi_controller) StdoutLine: {'line': b'copying rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller\n'}
+[5.094506] (rpi_controller) StdoutLine: {'line': b'running install\n'}
+[5.117780] (rpi_controller) StdoutLine: {'line': b'running install_lib\n'}
+[5.126107] (-) TimerEvent: {}
+[5.206036] (rpi_controller) StdoutLine: {'line': b'copying /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller\n'}
+[5.209005] (rpi_controller) StdoutLine: {'line': b'byte-compiling /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller/arduino_controller.py to arduino_controller.cpython-312.pyc\n'}
+[5.210129] (rpi_controller) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (arduino_controller.py, line 48)\n'}
+[5.210827] (rpi_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.211348] (rpi_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.226242] (-) TimerEvent: {}
+[5.303596] (rpi_controller) StdoutLine: {'line': b"removing '/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[5.305471] (rpi_controller) StdoutLine: {'line': b'Copying ../../build/rpi_controller/rpi_controller.egg-info to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info\n'}
+[5.311016] (rpi_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[5.326391] (-) TimerEvent: {}
+[5.426929] (-) TimerEvent: {}
+[5.527452] (-) TimerEvent: {}
+[5.627944] (-) TimerEvent: {}
+[5.728483] (-) TimerEvent: {}
+[5.828997] (-) TimerEvent: {}
+[5.929533] (-) TimerEvent: {}
+[5.966232] (rpi_controller) StdoutLine: {'line': b'Installing arduino_controller script to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/rpi_controller\n'}
+[5.967806] (rpi_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mrs-rpi/ros2_ws/build/rpi_controller/install.log'\n"}
+[6.029714] (-) TimerEvent: {}
+[6.110684] (rpi_controller) CommandEnded: {'returncode': 0}
+[6.129841] (-) TimerEvent: {}
+[6.155813] (rpi_controller) JobEnded: {'identifier': 'rpi_controller', 'rc': 0}
+[6.159034] (-) EventReactorShutdown: {}

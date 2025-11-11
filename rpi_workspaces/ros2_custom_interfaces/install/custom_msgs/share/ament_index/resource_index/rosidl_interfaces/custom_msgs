@@ -1,0 +1,4 @@
+msg/ControllerInput.idl
+msg/ControllerInput.msg
+msg/LogitechInput.idl
+msg/LogitechInput.msg

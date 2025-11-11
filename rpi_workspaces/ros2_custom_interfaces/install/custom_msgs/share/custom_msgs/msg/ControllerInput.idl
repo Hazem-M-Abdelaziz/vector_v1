@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/ControllerInput.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    typedef float float__8[8];
+    typedef int32 int32__13[13];
+    struct ControllerInput {
+      float__8 axes;
+
+      int32__13 buttons;
+    };
+  };
+};

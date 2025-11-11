@@ -1,0 +1,159 @@
+[0.459s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.460s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff910c9e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9127dc40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9127dc40>>, mixin_verb=('build',))
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.629s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mrs-rpi/ros2_custom_interfaces'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[0.751s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mrs-rpi/ros2_custom_interfaces/install
+[0.837s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.036s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs', 'merge_install': False, 'path': '/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.036s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.040s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs' with build type 'ament_cmake'
+[1.041s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs'
+[1.049s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+[22.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+[22.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
+[23.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[23.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
+[23.174s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs' for CMake module files
+[23.180s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs' for CMake config files
+[23.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[23.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[23.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[23.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[23.191s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib'
+[23.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[23.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[23.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[23.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[23.197s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/bin'
+[23.197s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[23.198s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages'
+[23.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'pythonpath')
+[23.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.ps1'
+[23.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.dsv'
+[23.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.sh'
+[23.208s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/bin'
+[23.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.ps1'
+[23.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.dsv'
+[23.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.sh'
+[23.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.bash'
+[23.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.zsh'
+[23.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[23.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[23.228s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs' for CMake module files
+[23.232s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs' for CMake config files
+[23.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[23.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[23.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[23.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[23.242s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib'
+[23.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[23.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[23.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[23.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[23.248s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/bin'
+[23.249s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[23.250s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages'
+[23.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'pythonpath')
+[23.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.ps1'
+[23.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.dsv'
+[23.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/hook/pythonpath.sh'
+[23.257s] Level 1:colcon.colcon_core.environment:checking '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/bin'
+[23.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.ps1'
+[23.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.dsv'
+[23.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.sh'
+[23.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.bash'
+[23.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.zsh'
+[23.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[23.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.272s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.293s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.296s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.297s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrs-rpi/ros2_custom_interfaces/install/local_setup.ps1'
+[23.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mrs-rpi/ros2_custom_interfaces/install/_local_setup_util_ps1.py'
+[23.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrs-rpi/ros2_custom_interfaces/install/setup.ps1'
+[23.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrs-rpi/ros2_custom_interfaces/install/local_setup.sh'
+[23.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mrs-rpi/ros2_custom_interfaces/install/_local_setup_util_sh.py'
+[23.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrs-rpi/ros2_custom_interfaces/install/setup.sh'
+[23.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrs-rpi/ros2_custom_interfaces/install/local_setup.bash'
+[23.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrs-rpi/ros2_custom_interfaces/install/setup.bash'
+[23.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrs-rpi/ros2_custom_interfaces/install/local_setup.zsh'
+[23.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrs-rpi/ros2_custom_interfaces/install/setup.zsh'

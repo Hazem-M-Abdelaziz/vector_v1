@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rpi-controller
+Version: 0.0.1
+Summary: Raspberry Pi controller node that communicates with Arduino via serial and subscribes to Logitech input.
+Maintainer: mrs-rpi
+Maintainer-email: you@example.com
+License: MIT

@@ -1,0 +1,19 @@
+{
+  "package_name": "custom_msgs",
+  "output_dir": "/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs/rosidl_typesupport_cpp/custom_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs:msg/ControllerInput.idl",
+    "/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs:msg/LogitechInput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs/msg/ControllerInput.idl",
+    "/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs/rosidl_adapter/custom_msgs/msg/LogitechInput.idl"
+  ]
+}

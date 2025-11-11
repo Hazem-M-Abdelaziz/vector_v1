@@ -1,0 +1,4 @@
+Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
+Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
