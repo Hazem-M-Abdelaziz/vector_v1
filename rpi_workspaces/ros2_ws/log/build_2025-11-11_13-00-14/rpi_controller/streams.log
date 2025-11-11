@@ -1,0 +1,25 @@
+[4.428s] Invoking command in '/home/mrs-rpi/ros2_ws/src/rpi_controller': PYTHONPATH=/home/mrs-rpi/ros2_ws/build/rpi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpi_controller build --build-base /home/mrs-rpi/ros2_ws/build/rpi_controller/build install --record /home/mrs-rpi/ros2_ws/build/rpi_controller/install.log --single-version-externally-managed install_data
+[5.578s] running egg_info
+[5.661s] writing ../../build/rpi_controller/rpi_controller.egg-info/PKG-INFO
+[5.663s] writing dependency_links to ../../build/rpi_controller/rpi_controller.egg-info/dependency_links.txt
+[5.664s] writing entry points to ../../build/rpi_controller/rpi_controller.egg-info/entry_points.txt
+[5.665s] writing requirements to ../../build/rpi_controller/rpi_controller.egg-info/requires.txt
+[5.665s] writing top-level names to ../../build/rpi_controller/rpi_controller.egg-info/top_level.txt
+[5.839s] reading manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+[5.843s] writing manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+[5.843s] running build
+[5.844s] running build_py
+[5.846s] copying rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller
+[5.847s] running install
+[5.871s] running install_lib
+[5.957s] copying /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller
+[5.959s] byte-compiling /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller/arduino_controller.py to arduino_controller.cpython-312.pyc
+[5.961s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (arduino_controller.py, line 69)
+[5.962s] running install_data
+[5.962s] running install_egg_info
+[6.052s] removing '/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info' (and everything under it)
+[6.053s] Copying ../../build/rpi_controller/rpi_controller.egg-info to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info
+[6.059s] running install_scripts
+[6.700s] Installing arduino_controller script to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/rpi_controller
+[6.701s] writing list of installed files to '/home/mrs-rpi/ros2_ws/build/rpi_controller/install.log'
+[6.844s] Invoked command in '/home/mrs-rpi/ros2_ws/src/rpi_controller' returned '0': PYTHONPATH=/home/mrs-rpi/ros2_ws/build/rpi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpi_controller build --build-base /home/mrs-rpi/ros2_ws/build/rpi_controller/build install --record /home/mrs-rpi/ros2_ws/build/rpi_controller/install.log --single-version-externally-managed install_data

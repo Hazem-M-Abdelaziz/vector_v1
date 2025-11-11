@@ -1,0 +1,24 @@
+[3.580s] Invoking command in '/home/mrs-rpi/ros2_ws/src/rpi_controller': PYTHONPATH=/home/mrs-rpi/ros2_ws/build/rpi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpi_controller build --build-base /home/mrs-rpi/ros2_ws/build/rpi_controller/build install --record /home/mrs-rpi/ros2_ws/build/rpi_controller/install.log --single-version-externally-managed install_data
+[4.733s] running egg_info
+[4.817s] writing ../../build/rpi_controller/rpi_controller.egg-info/PKG-INFO
+[4.818s] writing dependency_links to ../../build/rpi_controller/rpi_controller.egg-info/dependency_links.txt
+[4.819s] writing entry points to ../../build/rpi_controller/rpi_controller.egg-info/entry_points.txt
+[4.820s] writing requirements to ../../build/rpi_controller/rpi_controller.egg-info/requires.txt
+[4.820s] writing top-level names to ../../build/rpi_controller/rpi_controller.egg-info/top_level.txt
+[4.993s] reading manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+[4.996s] writing manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+[4.997s] running build
+[4.997s] running build_py
+[4.998s] copying rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller
+[5.000s] running install
+[5.023s] running install_lib
+[5.108s] copying /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller
+[5.111s] byte-compiling /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller/arduino_controller.py to arduino_controller.cpython-312.pyc
+[5.116s] running install_data
+[5.117s] running install_egg_info
+[5.206s] removing '/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info' (and everything under it)
+[5.208s] Copying ../../build/rpi_controller/rpi_controller.egg-info to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info
+[5.214s] running install_scripts
+[5.850s] Installing arduino_controller script to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/rpi_controller
+[5.852s] writing list of installed files to '/home/mrs-rpi/ros2_ws/build/rpi_controller/install.log'
+[5.995s] Invoked command in '/home/mrs-rpi/ros2_ws/src/rpi_controller' returned '0': PYTHONPATH=/home/mrs-rpi/ros2_ws/build/rpi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpi_controller build --build-base /home/mrs-rpi/ros2_ws/build/rpi_controller/build install --record /home/mrs-rpi/ros2_ws/build/rpi_controller/install.log --single-version-externally-managed install_data

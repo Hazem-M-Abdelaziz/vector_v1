@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs:msg/ControllerInput.msg",
+    "/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs:msg/LogitechInput.msg"
+  ]
+}

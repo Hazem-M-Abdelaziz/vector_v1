@@ -1,0 +1,2 @@
+[console_scripts]
+arduino_controller = rpi_controller.arduino_controller:main

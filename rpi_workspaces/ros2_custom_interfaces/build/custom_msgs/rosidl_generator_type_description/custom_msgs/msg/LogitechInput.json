@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_msgs/msg/LogitechInput",
+      "fields": [
+        {
+          "name": "axes",
+          "type": {
+            "type_id": 59,
+            "capacity": 6,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "buttons",
+          "type": {
+            "type_id": 63,
+            "capacity": 18,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_msgs/msg/LogitechInput",
+      "hash_string": "RIHS01_fb42a803aa873f60b7029f9122d70f2240bdce82be3127e0458ded8ea657be54"
+    }
+  ]
+}

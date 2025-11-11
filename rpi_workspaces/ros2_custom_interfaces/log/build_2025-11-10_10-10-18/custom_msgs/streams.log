@@ -1,0 +1,247 @@
+[0.072s] Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+[0.983s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.120s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.535s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.541s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.974s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.988s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.324s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.285s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.162s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.236s] -- Added test 'lint_cmake' to check CMake code style
+[6.248s] -- Added test 'xmllint' to check XML markup files
+[6.288s] -- Configuring done (5.4s)
+[6.643s] -- Generating done (0.3s)
+[6.701s] -- Build files have been written to: /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
+[6.904s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.966s] [  2%] Built target ament_cmake_python_copy_custom_msgs
+[8.016s] [  2%] Built target custom_msgs__rosidl_generator_type_description
+[8.072s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.125s] running egg_info
+[8.134s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.301s] writing custom_msgs.egg-info/PKG-INFO
+[8.304s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[8.305s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[8.731s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[8.737s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[8.954s] [  6%] Built target ament_cmake_python_build_custom_msgs_egg
+[9.713s] [  6%] Built target custom_msgs__cpp
+[9.947s] [  9%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__description.c.o[0m
+[9.948s] [ 11%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__functions.c.o[0m
+[9.951s] [ 13%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__type_support.c.o[0m
+[9.953s] [ 15%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__description.c.o[0m
+[10.923s] [ 18%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__functions.c.o[0m
+[11.145s] [ 20%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__type_support.c.o[0m
+[11.319s] [ 22%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[11.647s] [ 22%] Built target custom_msgs__rosidl_generator_c
+[11.709s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.710s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.711s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.714s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.692s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/controller_input__type_support.cpp.o[0m
+[13.886s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/controller_input__type_support.cpp.o[0m
+[13.944s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/controller_input__type_support_c.cpp.o[0m
+[13.945s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/controller_input__type_support.cpp.o[0m
+[16.647s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/logitech_input__type_support.cpp.o[0m
+[16.803s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/logitech_input__type_support.cpp.o[0m
+[17.236s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/logitech_input__type_support_c.cpp.o[0m
+[17.399s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/logitech_input__type_support.cpp.o[0m
+[18.669s] [ 52%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[18.881s] [ 54%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.951s] [ 54%] Built target custom_msgs__rosidl_typesupport_cpp
+[19.027s] [ 56%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.347s] [ 56%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[19.422s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.346s] [ 61%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.700s] [ 61%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[20.712s] [ 63%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.903s] [ 65%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/controller_input__type_support.c.o[0m
+[20.905s] [ 68%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/logitech_input__type_support.c.o[0m
+[21.013s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/controller_input__type_support.cpp.o[0m
+[21.174s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/logitech_input__type_support.cpp.o[0m
+[21.180s] [ 75%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.192s] [ 75%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[21.347s] [ 75%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[21.406s] [ 77%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[21.600s] [ 77%] Built target custom_msgs__rosidl_typesupport_c
+[21.706s] [ 77%] Built target custom_msgs
+[21.811s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.417s] [ 79%] Built target custom_msgs__py
+[23.572s] [ 81%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_controller_input_s.c.o[0m
+[23.573s] [ 84%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_logitech_input_s.c.o[0m
+[24.309s] [ 86%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_py.so[0m
+[24.525s] [ 86%] Built target custom_msgs__rosidl_generator_py
+[24.658s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.659s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.659s] [ 93%] [32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[25.191s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so[0m
+[25.205s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[25.250s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[25.365s] [100%] Built target custom_msgs_s__rosidl_typesupport_c
+[25.380s] [100%] Built target custom_msgs_s__rosidl_typesupport_introspection_c
+[25.421s] [100%] Built target custom_msgs_s__rosidl_typesupport_fastrtps_c
+[25.479s] Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs -- -j4 -l4
+[25.527s] Invoking command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs
+[25.569s] -- Install configuration: ""
+[25.570s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[25.572s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.json
+[25.574s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.json
+[25.576s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.577s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.577s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/controller_input.h
+[25.579s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.580s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.c
+[25.581s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__struct.h
+[25.583s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__functions.h
+[25.584s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__struct.h
+[25.585s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__functions.c
+[25.587s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__functions.c
+[25.588s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__description.c
+[25.589s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__description.c
+[25.591s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.h
+[25.592s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__functions.h
+[25.593s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.c
+[25.594s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.h
+[25.596s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[25.596s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/logitech_input.h
+[25.598s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[25.598s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[25.602s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[25.605s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[25.606s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.606s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.606s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.607s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.607s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_fastrtps_c.h
+[25.609s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_fastrtps_c.h
+[25.613s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[25.617s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[25.617s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.618s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.618s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.619s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.c
+[25.620s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_introspection_c.h
+[25.622s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_introspection_c.h
+[25.623s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.c
+[25.625s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.628s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[25.631s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[25.634s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[25.637s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[25.638s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.638s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.639s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.639s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.hpp
+[25.641s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__builder.hpp
+[25.642s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__traits.hpp
+[25.643s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__struct.hpp
+[25.645s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.hpp
+[25.646s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__traits.hpp
+[25.647s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__builder.hpp
+[25.649s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__struct.hpp
+[25.650s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.651s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/controller_input.hpp
+[25.652s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/logitech_input.hpp
+[25.654s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.654s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.655s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.655s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_fastrtps_cpp.hpp
+[25.656s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_fastrtps_cpp.hpp
+[25.658s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps
+[25.658s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.662s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[25.665s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.665s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs
+[25.666s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[25.666s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[25.667s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_introspection_cpp.hpp
+[25.668s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_introspection_cpp.hpp
+[25.669s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.cpp
+[25.671s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.cpp
+[25.675s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[25.679s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[25.682s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[25.685s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[25.686s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[25.686s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[25.688s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info
+[25.689s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[25.690s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[25.692s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[25.693s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[25.695s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs
+[25.696s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so
+[25.698s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.699s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[25.701s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg
+[25.702s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input.py
+[25.703s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input_s.c
+[25.704s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input_s.c
+[25.705s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input.py
+[25.707s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/__init__.py
+[25.708s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so
+[25.710s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so
+[25.712s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/__init__.py
+[25.713s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.898s] Listing '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs'...
+[25.898s] Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/__init__.py'...
+[25.899s] Listing '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg'...
+[25.900s] Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/__init__.py'...
+[25.901s] Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input.py'...
+[25.902s] Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input.py'...
+[25.929s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so
+[25.932s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[25.934s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so
+[25.937s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[25.939s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so
+[25.942s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so" to ""
+[25.945s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[25.948s] -- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[25.949s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.idl
+[25.950s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.idl
+[25.951s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.msg
+[25.951s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.msg
+[25.953s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[25.954s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[25.954s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[25.955s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[25.956s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/path.sh
+[25.956s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[25.957s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.bash
+[25.957s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.sh
+[25.958s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[25.958s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[25.959s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.dsv
+[25.960s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[25.963s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[25.963s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[25.965s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[25.965s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.967s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[25.968s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.969s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[25.970s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[25.972s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[25.973s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.974s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.976s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[25.976s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.978s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[25.979s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[25.980s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[25.981s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[25.982s] -- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[25.983s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.984s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[25.984s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[25.985s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.986s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.986s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.987s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[25.987s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[25.988s] -- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.xml
+[25.997s] Invoked command in '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs

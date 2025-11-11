@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/rpi_controller/rpi_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_controller/rpi_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_controller/rpi_controller.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_controller/rpi_controller.egg-info/requires.txt
+writing top-level names to ../../build/rpi_controller/rpi_controller.egg-info/top_level.txt
+reading manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_controller/rpi_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller
+running install
+running install_lib
+copying /home/mrs-rpi/ros2_ws/build/rpi_controller/build/lib/rpi_controller/arduino_controller.py -> /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller
+byte-compiling /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller/arduino_controller.py to arduino_controller.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/rpi_controller/rpi_controller.egg-info to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/python3.12/site-packages/rpi_controller-0.0.1-py3.12.egg-info
+running install_scripts
+Installing arduino_controller script to /home/mrs-rpi/ros2_ws/install/rpi_controller/lib/rpi_controller
+writing list of installed files to '/home/mrs-rpi/ros2_ws/build/rpi_controller/install.log'

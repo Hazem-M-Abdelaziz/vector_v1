@@ -1,0 +1,474 @@
+[0.000000] (-) TimerEvent: {}
+[0.000905] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.001716] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.042114] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.045623] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[0.049085] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', '--', '-j4', '-l4'], 'cwd': '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrs-rpi', 'SSH_CLIENT': '192.168.1.116 47530 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mrs-rpi', 'OLDPWD': '/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs/msg', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrs-rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.116 47530 192.168.1.193 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099304] (-) TimerEvent: {}
+[0.182538] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199536] (-) TimerEvent: {}
+[0.300295] (-) TimerEvent: {}
+[0.303567] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400533] (-) TimerEvent: {}
+[0.501117] (-) TimerEvent: {}
+[0.601840] (-) TimerEvent: {}
+[0.672695] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.675764] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.685486] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701988] (-) TimerEvent: {}
+[0.802654] (-) TimerEvent: {}
+[0.875927] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902817] (-) TimerEvent: {}
+[0.997570] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.002987] (-) TimerEvent: {}
+[1.004156] (custom_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.103156] (-) TimerEvent: {}
+[1.203764] (-) TimerEvent: {}
+[1.304337] (-) TimerEvent: {}
+[1.404967] (-) TimerEvent: {}
+[1.505641] (-) TimerEvent: {}
+[1.606227] (-) TimerEvent: {}
+[1.706990] (-) TimerEvent: {}
+[1.807656] (-) TimerEvent: {}
+[1.908386] (-) TimerEvent: {}
+[2.009161] (-) TimerEvent: {}
+[2.109814] (-) TimerEvent: {}
+[2.210519] (-) TimerEvent: {}
+[2.217629] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.310646] (-) TimerEvent: {}
+[2.411315] (-) TimerEvent: {}
+[2.512120] (-) TimerEvent: {}
+[2.613000] (-) TimerEvent: {}
+[2.624599] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.713121] (-) TimerEvent: {}
+[2.813715] (-) TimerEvent: {}
+[2.914357] (-) TimerEvent: {}
+[3.015082] (-) TimerEvent: {}
+[3.115840] (-) TimerEvent: {}
+[3.152894] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.157212] (custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.215980] (-) TimerEvent: {}
+[3.316588] (-) TimerEvent: {}
+[3.417261] (-) TimerEvent: {}
+[3.518157] (-) TimerEvent: {}
+[3.619210] (-) TimerEvent: {}
+[3.719947] (-) TimerEvent: {}
+[3.820817] (-) TimerEvent: {}
+[3.921691] (-) TimerEvent: {}
+[4.022237] (-) TimerEvent: {}
+[4.122859] (-) TimerEvent: {}
+[4.223489] (-) TimerEvent: {}
+[4.324168] (-) TimerEvent: {}
+[4.381970] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.424318] (-) TimerEvent: {}
+[4.437392] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.446239] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.465613] (custom_msgs) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.524528] (-) TimerEvent: {}
+[4.625127] (-) TimerEvent: {}
+[4.652665] (custom_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[4.714957] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs\n'}
+[4.725501] (-) TimerEvent: {}
+[4.826270] (-) TimerEvent: {}
+[4.882155] (custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.926512] (-) TimerEvent: {}
+[4.939358] (custom_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_msgs\n'}
+[5.026723] (-) TimerEvent: {}
+[5.127545] (-) TimerEvent: {}
+[5.228526] (-) TimerEvent: {}
+[5.329123] (-) TimerEvent: {}
+[5.430059] (-) TimerEvent: {}
+[5.530695] (-) TimerEvent: {}
+[5.631240] (-) TimerEvent: {}
+[5.731861] (-) TimerEvent: {}
+[5.832526] (-) TimerEvent: {}
+[5.933393] (-) TimerEvent: {}
+[5.956739] (custom_msgs) StdoutLine: {'line': b'[  2%] Built target custom_msgs__rosidl_generator_type_description\n'}
+[6.013545] (custom_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.033560] (-) TimerEvent: {}
+[6.075883] (custom_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.082246] (custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.133719] (-) TimerEvent: {}
+[6.234482] (-) TimerEvent: {}
+[6.235613] (custom_msgs) StdoutLine: {'line': b'writing custom_msgs.egg-info/PKG-INFO\n'}
+[6.237805] (custom_msgs) StdoutLine: {'line': b'writing dependency_links to custom_msgs.egg-info/dependency_links.txt\n'}
+[6.239143] (custom_msgs) StdoutLine: {'line': b'writing top-level names to custom_msgs.egg-info/top_level.txt\n'}
+[6.334721] (-) TimerEvent: {}
+[6.435456] (-) TimerEvent: {}
+[6.536539] (-) TimerEvent: {}
+[6.637231] (-) TimerEvent: {}
+[6.644702] (custom_msgs) StdoutLine: {'line': b"reading manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[6.648559] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[6.737555] (-) TimerEvent: {}
+[6.824674] (custom_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_custom_msgs_egg\n'}
+[6.837738] (-) TimerEvent: {}
+[6.938478] (-) TimerEvent: {}
+[7.039078] (-) TimerEvent: {}
+[7.139703] (-) TimerEvent: {}
+[7.240335] (-) TimerEvent: {}
+[7.341085] (-) TimerEvent: {}
+[7.443669] (-) TimerEvent: {}
+[7.544842] (-) TimerEvent: {}
+[7.647887] (-) TimerEvent: {}
+[7.709086] (custom_msgs) StdoutLine: {'line': b'[  6%] Built target custom_msgs__cpp\n'}
+[7.748091] (-) TimerEvent: {}
+[7.830932] (custom_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__functions.c.o\x1b[0m\n'}
+[7.832197] (custom_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__description.c.o\x1b[0m\n'}
+[7.832934] (custom_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/controller_input__type_support.c.o\x1b[0m\n'}
+[7.839819] (custom_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__description.c.o\x1b[0m\n'}
+[7.849615] (-) TimerEvent: {}
+[7.950902] (-) TimerEvent: {}
+[8.036792] (custom_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__functions.c.o\x1b[0m\n'}
+[8.052210] (-) TimerEvent: {}
+[8.056474] (custom_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/logitech_input__type_support.c.o\x1b[0m\n'}
+[8.152504] (-) TimerEvent: {}
+[8.253220] (-) TimerEvent: {}
+[8.281139] (custom_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.353485] (-) TimerEvent: {}
+[8.454207] (-) TimerEvent: {}
+[8.483599] (custom_msgs) StdoutLine: {'line': b'[ 22%] Built target custom_msgs__rosidl_generator_c\n'}
+[8.547019] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.548142] (custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.550010] (custom_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.551598] (custom_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.554512] (-) TimerEvent: {}
+[8.658726] (-) TimerEvent: {}
+[8.760168] (-) TimerEvent: {}
+[8.864840] (-) TimerEvent: {}
+[8.969913] (-) TimerEvent: {}
+[9.070590] (-) TimerEvent: {}
+[9.171268] (-) TimerEvent: {}
+[9.271986] (-) TimerEvent: {}
+[9.374572] (-) TimerEvent: {}
+[9.475307] (-) TimerEvent: {}
+[9.576112] (-) TimerEvent: {}
+[9.678549] (-) TimerEvent: {}
+[9.779345] (-) TimerEvent: {}
+[9.883578] (-) TimerEvent: {}
+[9.984456] (-) TimerEvent: {}
+[10.085960] (-) TimerEvent: {}
+[10.111685] (custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/controller_input__type_support.cpp.o\x1b[0m\n'}
+[10.113223] (custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/controller_input__type_support.cpp.o\x1b[0m\n'}
+[10.186173] (-) TimerEvent: {}
+[10.286953] (-) TimerEvent: {}
+[10.376691] (custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/logitech_input__type_support.cpp.o\x1b[0m\n'}
+[10.382235] (custom_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/controller_input__type_support.cpp.o\x1b[0m\n'}
+[10.387174] (-) TimerEvent: {}
+[10.418669] (custom_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/controller_input__type_support_c.cpp.o\x1b[0m\n'}
+[10.488582] (-) TimerEvent: {}
+[10.592672] (-) TimerEvent: {}
+[10.631385] (custom_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.692971] (-) TimerEvent: {}
+[10.795189] (-) TimerEvent: {}
+[10.871645] (custom_msgs) StdoutLine: {'line': b'[ 45%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[10.895510] (-) TimerEvent: {}
+[10.939776] (custom_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/logitech_input__type_support.cpp.o\x1b[0m\n'}
+[10.997624] (-) TimerEvent: {}
+[11.098625] (-) TimerEvent: {}
+[11.201899] (-) TimerEvent: {}
+[11.302955] (-) TimerEvent: {}
+[11.404005] (-) TimerEvent: {}
+[11.507135] (-) TimerEvent: {}
+[11.610088] (-) TimerEvent: {}
+[11.712851] (-) TimerEvent: {}
+[11.813865] (-) TimerEvent: {}
+[11.918061] (-) TimerEvent: {}
+[12.020535] (-) TimerEvent: {}
+[12.120689] (custom_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/logitech_input__type_support.cpp.o\x1b[0m\n'}
+[12.121772] (-) TimerEvent: {}
+[12.222642] (-) TimerEvent: {}
+[12.324648] (-) TimerEvent: {}
+[12.425744] (-) TimerEvent: {}
+[12.527984] (-) TimerEvent: {}
+[12.631029] (-) TimerEvent: {}
+[12.732972] (-) TimerEvent: {}
+[12.836103] (-) TimerEvent: {}
+[12.937103] (-) TimerEvent: {}
+[13.041009] (-) TimerEvent: {}
+[13.070795] (custom_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.143623] (-) TimerEvent: {}
+[13.244766] (-) TimerEvent: {}
+[13.319989] (custom_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/logitech_input__type_support_c.cpp.o\x1b[0m\n'}
+[13.338616] (custom_msgs) StdoutLine: {'line': b'[ 54%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[13.348644] (-) TimerEvent: {}
+[13.412320] (custom_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.448825] (-) TimerEvent: {}
+[13.510986] (custom_msgs) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.550591] (-) TimerEvent: {}
+[13.652618] (-) TimerEvent: {}
+[13.753621] (-) TimerEvent: {}
+[13.855578] (-) TimerEvent: {}
+[13.958630] (-) TimerEvent: {}
+[14.059448] (-) TimerEvent: {}
+[14.160565] (-) TimerEvent: {}
+[14.263010] (-) TimerEvent: {}
+[14.365966] (-) TimerEvent: {}
+[14.467027] (-) TimerEvent: {}
+[14.570961] (-) TimerEvent: {}
+[14.671809] (-) TimerEvent: {}
+[14.772748] (-) TimerEvent: {}
+[14.875621] (-) TimerEvent: {}
+[14.976701] (-) TimerEvent: {}
+[15.083060] (-) TimerEvent: {}
+[15.184094] (-) TimerEvent: {}
+[15.256999] (custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/controller_input__type_support.c.o\x1b[0m\n'}
+[15.286649] (-) TimerEvent: {}
+[15.369139] (custom_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/controller_input__type_support.cpp.o\x1b[0m\n'}
+[15.389588] (-) TimerEvent: {}
+[15.432840] (custom_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.489837] (-) TimerEvent: {}
+[15.521255] (custom_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/logitech_input__type_support.c.o\x1b[0m\n'}
+[15.590068] (-) TimerEvent: {}
+[15.692061] (-) TimerEvent: {}
+[15.795075] (-) TimerEvent: {}
+[15.815661] (custom_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.895340] (-) TimerEvent: {}
+[15.904887] (custom_msgs) StdoutLine: {'line': b'[ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.969472] (custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/logitech_input__type_support.cpp.o\x1b[0m\n'}
+[15.996677] (-) TimerEvent: {}
+[16.025495] (custom_msgs) StdoutLine: {'line': b'[ 72%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[16.096977] (-) TimerEvent: {}
+[16.198591] (-) TimerEvent: {}
+[16.300585] (-) TimerEvent: {}
+[16.401298] (-) TimerEvent: {}
+[16.407594] (custom_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.501600] (-) TimerEvent: {}
+[16.602745] (-) TimerEvent: {}
+[16.702031] (custom_msgs) StdoutLine: {'line': b'[ 75%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[16.703348] (-) TimerEvent: {}
+[16.804982] (-) TimerEvent: {}
+[16.905713] (-) TimerEvent: {}
+[17.006443] (-) TimerEvent: {}
+[17.107160] (-) TimerEvent: {}
+[17.207918] (-) TimerEvent: {}
+[17.308562] (-) TimerEvent: {}
+[17.409221] (-) TimerEvent: {}
+[17.509954] (-) TimerEvent: {}
+[17.601539] (custom_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.610126] (-) TimerEvent: {}
+[17.710834] (-) TimerEvent: {}
+[17.811559] (-) TimerEvent: {}
+[17.912258] (-) TimerEvent: {}
+[17.944144] (custom_msgs) StdoutLine: {'line': b'[ 77%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[18.012490] (-) TimerEvent: {}
+[18.056394] (custom_msgs) StdoutLine: {'line': b'[ 77%] Built target custom_msgs\n'}
+[18.112660] (-) TimerEvent: {}
+[18.166765] (custom_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.212806] (-) TimerEvent: {}
+[18.313439] (-) TimerEvent: {}
+[18.414020] (-) TimerEvent: {}
+[18.514558] (-) TimerEvent: {}
+[18.615119] (-) TimerEvent: {}
+[18.715940] (-) TimerEvent: {}
+[18.816523] (-) TimerEvent: {}
+[18.917076] (-) TimerEvent: {}
+[19.017666] (-) TimerEvent: {}
+[19.118204] (-) TimerEvent: {}
+[19.218806] (-) TimerEvent: {}
+[19.319360] (-) TimerEvent: {}
+[19.419951] (-) TimerEvent: {}
+[19.520500] (-) TimerEvent: {}
+[19.621583] (-) TimerEvent: {}
+[19.722287] (-) TimerEvent: {}
+[19.756177] (custom_msgs) StdoutLine: {'line': b'[ 79%] Built target custom_msgs__py\n'}
+[19.822478] (-) TimerEvent: {}
+[19.887829] (custom_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_controller_input_s.c.o\x1b[0m\n'}
+[19.890122] (custom_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_logitech_input_s.c.o\x1b[0m\n'}
+[19.922768] (-) TimerEvent: {}
+[20.023560] (-) TimerEvent: {}
+[20.124337] (-) TimerEvent: {}
+[20.225204] (-) TimerEvent: {}
+[20.325882] (-) TimerEvent: {}
+[20.426556] (-) TimerEvent: {}
+[20.468587] (custom_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[20.526739] (-) TimerEvent: {}
+[20.627493] (-) TimerEvent: {}
+[20.681330] (custom_msgs) StdoutLine: {'line': b'[ 86%] Built target custom_msgs__rosidl_generator_py\n'}
+[20.727727] (-) TimerEvent: {}
+[20.811520] (custom_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.812524] (custom_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.814676] (custom_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.828008] (-) TimerEvent: {}
+[20.929045] (-) TimerEvent: {}
+[21.029760] (-) TimerEvent: {}
+[21.130532] (-) TimerEvent: {}
+[21.231660] (-) TimerEvent: {}
+[21.334837] (-) TimerEvent: {}
+[21.344450] (custom_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.361487] (custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.398071] (custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.435145] (-) TimerEvent: {}
+[21.520096] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs_s__rosidl_typesupport_c\n'}
+[21.535329] (-) TimerEvent: {}
+[21.539451] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs_s__rosidl_typesupport_introspection_c\n'}
+[21.575005] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[21.635332] (custom_msgs) CommandEnded: {'returncode': 0}
+[21.636355] (-) TimerEvent: {}
+[21.637752] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[21.683798] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs'], 'cwd': '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrs-rpi', 'SSH_CLIENT': '192.168.1.116 47530 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mrs-rpi', 'OLDPWD': '/home/mrs-rpi/ros2_custom_interfaces/src/custom_msgs/msg', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrs-rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrs-rpi/ros2_custom_interfaces/build/custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.116 47530 192.168.1.193 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[21.731024] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.731683] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[21.732158] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.json\n'}
+[21.733425] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.json\n'}
+[21.734680] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.735237] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.735691] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/controller_input.h\n'}
+[21.736477] (-) TimerEvent: {}
+[21.736873] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.737471] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.c\n'}
+[21.738680] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__struct.h\n'}
+[21.739905] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__functions.h\n'}
+[21.741244] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__struct.h\n'}
+[21.742491] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__functions.c\n'}
+[21.743778] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__functions.c\n'}
+[21.745031] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__description.c\n'}
+[21.746259] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__description.c\n'}
+[21.747527] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.h\n'}
+[21.748748] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__functions.h\n'}
+[21.750031] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.c\n'}
+[21.751318] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.h\n'}
+[21.752563] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.753083] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/logitech_input.h\n'}
+[21.754192] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[21.754702] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[21.755833] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[21.758916] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""\n'}
+[21.759561] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.759987] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.760350] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.760821] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.761221] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_fastrtps_c.h\n'}
+[21.762419] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_fastrtps_c.h\n'}
+[21.764723] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[21.767787] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.768353] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.768891] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.769216] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.769614] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.c\n'}
+[21.770907] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_introspection_c.h\n'}
+[21.772305] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_introspection_c.h\n'}
+[21.773682] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.c\n'}
+[21.775018] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.776255] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[21.779321] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.780323] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[21.783245] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[21.783893] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.784273] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.784734] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.785171] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.hpp\n'}
+[21.786203] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__builder.hpp\n'}
+[21.787499] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__traits.hpp\n'}
+[21.788731] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__struct.hpp\n'}
+[21.789964] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.hpp\n'}
+[21.791208] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__traits.hpp\n'}
+[21.792427] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__builder.hpp\n'}
+[21.793626] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__struct.hpp\n'}
+[21.794912] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.796149] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/controller_input.hpp\n'}
+[21.797279] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/logitech_input.hpp\n'}
+[21.798567] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.799091] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.799539] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.799945] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.801332] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.802667] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps\n'}
+[21.803158] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.804467] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.807703] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.808362] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[21.808785] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[21.809243] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[21.809611] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.810748] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.812198] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/logitech_input__type_support.cpp\n'}
+[21.813524] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/controller_input__type_support.cpp\n'}
+[21.815768] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[21.818917] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.819974] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[21.822949] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[21.823550] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[21.824087] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[21.824442] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info\n'}
+[21.824885] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[21.825939] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[21.827159] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[21.828371] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[21.829738] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs\n'}
+[21.830241] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so\n'}
+[21.832255] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.833678] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[21.834927] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg\n'}
+[21.835446] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input.py\n'}
+[21.836595] (-) TimerEvent: {}
+[21.836960] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input_s.c\n'}
+[21.838041] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input_s.c\n'}
+[21.839298] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input.py\n'}
+[21.840595] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/__init__.py\n'}
+[21.841784] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[21.843797] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.845660] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/__init__.py\n'}
+[21.846687] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.936743] (-) TimerEvent: {}
+[22.027391] (custom_msgs) StdoutLine: {'line': b"Listing '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs'...\n"}
+[22.028635] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/__init__.py'...\n"}
+[22.029543] (custom_msgs) StdoutLine: {'line': b"Listing '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg'...\n"}
+[22.030394] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/__init__.py'...\n"}
+[22.031343] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_controller_input.py'...\n"}
+[22.032087] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/msg/_logitech_input.py'...\n"}
+[22.037027] (-) TimerEvent: {}
+[22.060023] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.062888] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.064457] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[22.067659] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.069685] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so\n'}
+[22.073522] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/python3.12/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[22.075213] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so\n'}
+[22.078797] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""\n'}
+[22.079358] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.idl\n'}
+[22.079874] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.idl\n'}
+[22.080947] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/ControllerInput.msg\n'}
+[22.081492] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/msg/LogitechInput.msg\n'}
+[22.082701] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[22.083168] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[22.084607] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[22.085107] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[22.085538] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[22.086041] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[22.086380] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[22.086852] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[22.087326] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[22.087718] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[22.088172] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[22.089027] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[22.089891] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[22.090384] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.091226] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.091751] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.092647] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.093101] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.093946] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[22.094426] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.095261] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[22.096306] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.112211] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.112686] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.113108] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.113533] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[22.113878] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.114198] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[22.114886] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.115318] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[22.115886] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.116268] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.116775] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.117085] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.117542] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.118382] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.119263] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[22.119856] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[22.120355] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mrs-rpi/ros2_custom_interfaces/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[22.122492] (custom_msgs) CommandEnded: {'returncode': 0}
+[22.137219] (-) TimerEvent: {}
+[22.230870] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[22.233368] (-) EventReactorShutdown: {}
