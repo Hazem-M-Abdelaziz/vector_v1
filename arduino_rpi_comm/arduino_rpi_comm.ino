@@ -1,26 +1,42 @@
+//including servo library for steering servo
 #include <Servo.h>
 
 Servo steering;
+
+//Identifying pins connected to the arduino board
 const int steeringPin = 11;
 const int dcEnablePin = 9;
 const int dcIn1 = 8;
 const int dcIn2 = 7;
 
 void setup() {
+  //Setup Serial for communication, make sure same seria channel and freq, for ex 115200
   Serial.begin(115200);
+  //Attach servo and write 95 (mid position)
   steering.attach(steeringPin);
   steering.write(95);
+  //Setting pinMode
   pinMode(dcEnablePin, OUTPUT);
   pinMode(dcIn1, OUTPUT);
   pinMode(dcIn2, OUTPUT);
+  //Initializing low signal for dc motor
   digitalWrite(dcIn1, LOW);
   digitalWrite(dcIn2, LOW);
   analogWrite(dcEnablePin, 0);
 }
 
+/*
+For the main loop it is like a communication method established between arduino and rpi
+So the arduino expects message or command like this
+for servo -> "Servo:<Val>"
+for dc -> "DC:<Direction>:<Val>" and for direction its whether BACKWARD, FORWARD, or STOP
+*/
+
 void loop() {
   if (Serial.available() > 0) {
+    //Reading command sent from rpi
     String command = Serial.readStringUntil('\n');
+    //Handling DC command
     if (command.startsWith("DC:")) {
       int firstColon = command.indexOf(':');
       int secondColon = command.indexOf(':', firstColon + 1);
@@ -44,8 +60,10 @@ void loop() {
       digitalWrite(dcIn2, LOW);
       analogWrite(dcEnablePin, 0);
     } 
+    //Handling Servo command
     else if (command.startsWith("SERVO:")) {
       int angle = command.substring(6).toInt();
+      //Setting constrains for servo angle for safety of the hardware used, in my case it is from 70 full left to 120 full right
       angle = constrain(angle, 70, 120);
       steering.write(angle);
     }

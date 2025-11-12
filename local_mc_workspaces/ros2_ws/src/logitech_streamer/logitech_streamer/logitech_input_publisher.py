@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
+#Importing modules and packages needed.
 import rclpy
 from rclpy.node import Node
 from custom_msgs.msg import LogitechInput
 import pygame
 
-
+#Identifying class for the publisher to publish controller data to the ROS 2 network
 class LogitechInputPublisher(Node):
     def __init__(self):
         super().__init__('logitech_input_publisher')
 
-        # Initialize pygame for joystick handling
+        #Initialize pygame for joystick handling
         pygame.init()
         pygame.joystick.init()
 
@@ -23,39 +24,38 @@ class LogitechInputPublisher(Node):
 
         self.get_logger().info(f"🎮 Joystick detected: {self.joystick.get_name()}")
 
-        # Create publisher
+        #Creating publisher
         self.publisher_ = self.create_publisher(LogitechInput, 'logitech_input_topic', 10)
 
-        # Timer for publishing at ~50 Hz
+        #Timer for publishing at ~50 Hz
         self.timer = self.create_timer(0.02, self.timer_callback)
 
     def timer_callback(self):
-        # Pump pygame events to keep input data updated
+        #Pump pygame events to keep input data updated repeatedly
         pygame.event.pump()
-
         msg = LogitechInput()
 
-        # --- Axes ---
+        #Assigning Axes data
         num_axes = min(self.joystick.get_numaxes(), 6)
         axes_data = [float(self.joystick.get_axis(i)) for i in range(num_axes)]
 
-        # Pad with zeros if joystick has fewer than 6 axes
+        #Pad with zeros if joystick has fewer than 6 axes (Checking condition)
         while len(axes_data) < 6:
             axes_data.append(0.0)
 
         msg.axes = axes_data
 
-        # --- Buttons ---
+        #Assigning buttons data
         num_buttons = min(self.joystick.get_numbuttons(), 18)
         button_data = [bool(self.joystick.get_button(i)) for i in range(num_buttons)]
 
-        # Pad with False if joystick has fewer than 18 buttons
+        #Pad with False if joystick has fewer than 18 buttons (Checking condition)
         while len(button_data) < 18:
             button_data.append(False)
 
         msg.buttons = button_data
 
-        # Publish
+        #Publish data
         self.publisher_.publish(msg)
         self.get_logger().debug(f"Published Logitech input: {msg}")
 

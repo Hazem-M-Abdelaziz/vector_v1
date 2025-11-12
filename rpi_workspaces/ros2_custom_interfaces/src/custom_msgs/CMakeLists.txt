@@ -26,7 +26,6 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 
   rosidl_generate_interfaces(${PROJECT_NAME}
-    "msg/ControllerInput.msg"
     "msg/LogitechInput.msg"
 )
 endif()
