@@ -42,11 +42,23 @@ Repository_Root/
 ├── local_mc_workspaces/                     # ROS 2 setup for the local machine to enable it communicate with the rpi's ROS 2 ecosystem.
 │   ├── ros2_custom_interfaces                   # WS that holds the declaration for the custom message used for the logitech set data.
 │   ├── ros2_ws                                  # WS that contains the node that handles the logitech data streaming from the set connected to the local machine to the ecosystem on the rpi remotely.
+├── mathworks_controllers/                    # Contains matlab and simulink setup to get familiar with the logitech set (our controller in this case), if you're familiar with its attributes, no need to check it
+│   ├── controllerInputModel.slx                 # Simulink model to get familiar with logitech set
+│   ├── joystickInput.mlx                        # Matlab live script to get familiar with logitech set
 ├── rpi_workspaces/                          # ROS 2 setup for the rpi to enable it communicate with the local machine's ROS 2 ecosystem.
 │   ├── ros2_custom_interfaces                   # WS that holds the declaration for the custom message used for the logitech set data (same as the one build on the local machine).
 │   ├── ros2_ws                                  # WS that contains the node that listens to the logitech data streamed from the local pc and convert it to control commands sent to the arduino connectd on the rpi using serial USB.
 └── README.md                                # Project documentation
 ```
 
+---
+## ⚙️ Components of the project
+
+1. rpi mounted on the hardwware (acts as the high level control)
+2. arduino borad connected using serial usb to the rpi (acts as the low level control)
+3. Servo motor for steering
+4. Dc motor for throttling and braking
+5. Power needed for controllers and actuators.
+6. logitech g920 set to send controlling commands to the rpi, which is then handled by the high level and sent to the low level control
 
 
