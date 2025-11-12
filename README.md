@@ -144,6 +144,7 @@ Special thanks to:
 - **Prof. Omar M. Shehata** — Associate Professor in the Mechatronics Engineering Department and Director of the Multi-Robot Systems (MRS) Lab, for providing the opportunity and guidance to be part of this project.
 
 - **Eng. Mohammed Sokkar** — for his valuable contributions in designing the **Vector_V1** scaled vehicle.
+- and the whole **MRS Research Group** for the great experience.
 
 ---
 
