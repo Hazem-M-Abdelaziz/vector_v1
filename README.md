@@ -55,6 +55,7 @@ Repository_Root/
 │   ├── ros2_ws                                  # WS that contains the node that listens to the logitech data streamed from the local pc and convert it to control commands sent to the arduino connectd on the rpi using serial USB.
 └── README.md                                # Project documentation
 ```
+All scripts and models are documented with comments.
 
 ---
 ## ⚙️ Components of the project
