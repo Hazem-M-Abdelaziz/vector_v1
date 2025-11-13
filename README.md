@@ -79,13 +79,55 @@ All scripts and models are documented with comments.
 
 ## 🧰 MathWorks tools
 Attached in `mathworks_controllers/` directory you can see two files used to get familiar with the controller set and visualize how many attributes, what are the types?, and mapping the action to the attributes itself easily.
-1. controllerInputModel.slx (Simulink model used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+1. controllerInputModel.slx
+  
+   (Simulink model used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+
 <img width="1783" height="840" alt="Image" src="https://github.com/user-attachments/assets/89510d59-0c7d-49d4-be1b-fd8bfe4f084d" />
 
-2. joystickInput.mlx (Matlab Live script used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+2. joystickInput.mlx
+
+   (Matlab Live script used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+
 <img width="1180" height="797" alt="Image" src="https://github.com/user-attachments/assets/6ce1db25-1961-45c8-80e5-38b9a575227d" />
 
 ⚠️ If you're already familiar with the controller attributes, types, and input mapping. You don't need to check these files, although you can use them to publish your controller data (As a replacement of logitech input publisher node scripted, built, and resourced to your local machine WS)
+
+---
+
+## ⚙️ How the custom message built on an edge device.
+After getting a feedback on the controller attributes, simple steps are followed to create the suitable custom ROS 2 interface LogitechInput: 
+1. Navigate to your desired `~/<ros2_ws>/src` 
+2. Creating a package for the custom interface if needed using:
+   ```bash
+   ros2 pkg create --build-type ament_cmake <pkg>
+   ```
+3. Create directory for the message inside the ~/<ros2_ws>/src/<pkg>
+   ```bash
+   cd <pkg> && mkdir msg
+   ```
+4. Identifying the message interface inside `~/<ros2_ws>/src/<pkg>/msg'
+   ```bash
+   cd msg && nano LogitechInput.msg
+   ```
+   so your message interface should look like this:
+   <img width="815" height="136" alt="Image" src="https://github.com/user-attachments/assets/27caedc4-c9cd-4f6a-94c7-1844b30b86ec" />
+   
+5. Modifying 'CMakeLists.txt' file by adding:
+   ```
+   find_package(rosidl_default_generators REQUIRED)
+   find_package(std_msgs REQUIRED)
+   rosidl_generate_interfaces(${PROJECT_NAME} "msg/LogitechInput.msg")
+   ```
+6. Modifying `package.xml` file by adding:
+   ```
+   <buildtool_depend>rosidl_default_generators</buildtool_depend> 
+   <depend>std_msgs</depend> 
+   <member_of_group>rosidl_interface_packages</member_of_group>
+   ```
+7. build your ws and source `~/<ros2-ws>/install/setup.bash`
+8. Checkout the custom interface to make sure it is defined correctly
+   <img width="815" height="136" alt="Image" src="https://github.com/user-attachments/assets/8e8aa92a-ba7d-4637-a00e-b4fd99fe2223" />
 
 ---
 
@@ -118,41 +160,43 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
    - For the rpi:
        have the `rpi_workspaces` setup and sourced to also identify custom message for the controller and the arduino controller node.
 
-    For more information on how to setup ROS 2 subnet checkout this [LinkedIn post](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
+   For more information on how to setup ROS 2 subnet checkout this [LinkedIn post](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
 
 ### 3. Upload the arduino script to prepare it for recieving commands from the rpi using serial USB.
 
 ### 4. Connect your rpi to the local pc using ssh on your local machine terminal:
-    ``` bash
-    ssh <user_name>@<target_ip_address>
-    ```
-    ⚠️ Make sure ssh is enabled on target before connecting.
+   ```bash
+   ssh <user_name>@<target_ip_address>
+   ```
+   ⚠️ Make sure ssh is enabled on target before connecting.
 
 ### 5. Setting up ROS_DOMAIN_ID on both devices to seperate their ROS 2 as a subnetwork:
-   ``` bash
+   ```bash
    export ROS_DOMAIN_ID=<val>
    ```
    this value could be any integer like: `export ROS_DOMAIN_ID=23`
    you can make sure the ROS_DOMAIN_ID is set properly on both devices by doing:
-   ``` bash
+   
+   ```bash
    echo $ROS_DOMAIN_ID
    ```
 
 ### 6. Run your ROS 2 node on local machine after plugging-in the logitech controller:
-   ``` bash
+   
+   ```bash
    ros2 run logitech_streamer logitech_input_publisher
    ```
 
 ### 7. Make sure the ROS 2 ecosystem established on the local machine is visible to the rpi ROS 2 ecosystem:
-    ``` bash
-    ros2 topic list
-    ```
-    if you can see the `/logitech_inout_topic`, you are ready for the next step.
+   ```bash
+   ros2 topic list
+   ``` 
+   if you can see the `/logitech_inout_topic`, you are ready for the next step.
 
 ### 8. Run your ROS 2 node on rpi:
-    ```bash
-    ros2 run rpi_controller arduino_controller
-    ```
+   ```bash
+   ros2 run rpi_controller arduino_controller
+   ```
 
 And here's a simple block diagram representing the control process.
 <img width="1096" height="601" alt="Image" src="https://github.com/user-attachments/assets/2e92b9ca-950a-4015-8f53-dc775333dacd" />
