@@ -42,6 +42,18 @@ This version provides:
 
 ---
 
+## ⚙️ Components of the project
+
+1. Local PC connected to the controller and sending cmds to the high level control of the robot. 
+2. rpi mounted on the hardware (acts as the high level control)
+3. arduino borad connected using serial usb to the rpi (acts as the low level control)
+4. Servo motor for steering
+5. Dc motor for rear drive
+6. Power setup for controllers and actuators.
+7. logitech g920 set to send controlling commands to the rpi, which is then handled by the high level and sent to the low level control
+
+---
+
 ## 📂 Repository Hierarchy
 
 The following is the folder structure of the repo. including files, models, and ROS 2 components needed to start working with the project:
@@ -74,17 +86,6 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
 <img width="1180" height="797" alt="Image" src="https://github.com/user-attachments/assets/6ce1db25-1961-45c8-80e5-38b9a575227d" />
 
 ⚠️ If you're already familiar with the controller attributes, types, and input mapping. You don't need to check these files, although you can use them to publish your controller data (As a replacement of logitech input publisher node scripted, built, and resourced to your local machine WS)
-
-
-
-## ⚙️ Components of the project
-
-1. rpi mounted on the hardwware (acts as the high level control)
-2. arduino borad connected using serial usb to the rpi (acts as the low level control)
-3. Servo motor for steering
-4. Dc motor for throttling and braking
-5. Power needed for controllers and actuators.
-6. logitech g920 set to send controlling commands to the rpi, which is then handled by the high level and sent to the low level control
 
 ---
 
