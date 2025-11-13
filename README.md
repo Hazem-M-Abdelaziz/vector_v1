@@ -37,7 +37,7 @@ MRS Lab’s mission is to **bridge theoretical research with practical robotic d
 
 This version provides:
 - A simple and effective **hardware and software framework**
-- A full setup on **how to operate the vehicle remotely** ?
+- A full setup on **how to operate the vehicle remotely**
 - ROS 2 subnetwork interoperability for controlling and monitoring  
 
 ---
@@ -46,7 +46,7 @@ This version provides:
 
 1. Local PC connected to the controller and sending cmds to the high level control of the robot. 
 2. rpi mounted on the hardware (acts as the high level control)
-3. arduino borad connected using serial usb to the rpi (acts as the low level control)
+3. arduino board connected using serial usb to the rpi (acts as the low level control)
 4. Servo motor for steering
 5. Dc motor for rear drive
 6. Power setup for controllers and actuators.
@@ -78,7 +78,7 @@ All scripts and models are documented with comments.
 ---
 
 ## 🧰 MathWorks tools
-Attached in `mathworks_controllers/` directory you can see two files used to get familiar with the controller set and visualize how many attributes, what are the types?, and mapping the action to the attributes itself easily.
+Attached in `mathworks_controllers/` directory you can see two files used to get familiar with the controller set and visualize the attributes, identify their types, and easily map actions to those attributes.
 1. controllerInputModel.slx
   
    (Simulink model used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
@@ -174,8 +174,8 @@ After getting a feedback on the controller attributes, simple steps are followed
    ```bash
    export ROS_DOMAIN_ID=<val>
    ```
-   this value could be any integer like: `export ROS_DOMAIN_ID=23`
-   you can make sure the ROS_DOMAIN_ID is set properly on both devices by doing:
+   this value can be any integer, for example: `export ROS_DOMAIN_ID=23`.
+   you can make verify that ROS_DOMAIN_ID is set correctly on both devices by doing:
    
    ```bash
    echo $ROS_DOMAIN_ID
