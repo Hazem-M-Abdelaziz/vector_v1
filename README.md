@@ -58,6 +58,19 @@ Repository_Root/
 All scripts and models are documented with comments.
 
 ---
+
+## 🧰 MathWorks tools
+Attached in `mathworks_controllers/` directory you can see two files used to get familiar with the controller set and visualize how many attributes, what are the types?, and mapping the action to the attributes itself easily.
+1. controllerInputModel.slx (Simulink model used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+<img width="1783" height="840" alt="Image" src="https://github.com/user-attachments/assets/89510d59-0c7d-49d4-be1b-fd8bfe4f084d" />
+
+2. joystickInput.mlx (Matlab Live script used to identify controller, assign data to ROS 2 custom message, and publish to a certain topic)
+<img width="1180" height="797" alt="Image" src="https://github.com/user-attachments/assets/6ce1db25-1961-45c8-80e5-38b9a575227d" />
+
+⚠️ If you're already familiar with the controller attributes, types, and input mapping. You don't need to check these files, although you can use them to publish your controller data (As a replacement of logitech input publisher node scripted, built, and resourced to your local machine WS)
+
+
+
 ## ⚙️ Components of the project
 
 1. rpi mounted on the hardwware (acts as the high level control)
