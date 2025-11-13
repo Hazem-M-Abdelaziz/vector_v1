@@ -91,16 +91,16 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
 
 ## 🔤 Full guide to setup and use the project
 
-1. First of all you need to establish the ROS 2 subnetwork for the project, this version uses local pc as a master connected to the logitech set and sends controlling command for the vehicle which has a rpi mounted as the slave.
+1. First of all you need to establish the ROS 2 subnetwork for the project, this version uses local pc as a master connected to the logitech set and sends controlling commands for the vehicle which has a rpi mounted as the slave.
    So both of them needs to be connected to the same local network to be visible to each others.
-- OS used :
+- OS used for both edges:
   ```
   Distributor ID:	Ubuntu
   Description:	Ubuntu 24.04.3 LTS
   Release:	24.04
   Codename:	noble
   ```
-- ROS Distro used :
+- ROS Distro used for both edges:
   ```
   ROS_VERSION=2
   ROS_PYTHON_VERSION=3
@@ -112,6 +112,7 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
   
    Your network should look like this:
    <img width="1114" height="635" alt="Image" src="https://github.com/user-attachments/assets/1fb5bcec-7487-4af8-8789-194a2e20e664" />
+   So to establish the base of the ROS 2 subnetwork on both edges you need to do the following:
    - For the local pc:
        have the `local_mc_workspaces` setup and sourced to identify custom message for the controller and the logitech_streamer node.
    - For the rpi:
@@ -140,10 +141,19 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
    ros2 run logitech_streamer logitech_input_publisher
    ```
 
-9. Run your ROS 2 node on rpi:
+9. Make sure the ROS 2 ecosystem established on the local machine is visible to the rpi ROS 2 ecosystem:
+    ``` bash
+    ros2 topic list
+    ```
+    if you can see the `/logitech_inout_topic`, you are ready for the next step.
+
+11. Run your ROS 2 node on rpi:
     ```bash
     ros2 run rpi_controller arduino_controller
     ```
+
+And here's a simple block diagram representing the control process.
+<img width="1096" height="601" alt="Image" src="https://github.com/user-attachments/assets/2e92b9ca-950a-4015-8f53-dc775333dacd" />
     
 ---
 After doing so, your interface should look something like this:
