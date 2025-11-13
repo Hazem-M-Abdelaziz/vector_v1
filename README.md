@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/Hazem-M-Abdelaziz/vector_v1.svg)](LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/Hazem-M-Abdelaziz/vector_v1.svg)](https://github.com/Hazem-M-Abdelaziz/vector_v1)
+![Language](https://img.shields.io/badge/languages-MATLAB%20%7C%20Python%20%7C%20CPP-orange.svg)
 [![Last Commit](https://img.shields.io/github/last-commit/Hazem-M-Abdelaziz/vector_v1.svg)](https://github.com/Hazem-M-Abdelaziz/vector_v1/commits/main)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Hazem-M-Abdelaziz/vector_v1?style=social)](https://github.com/Hazem-M-Abdelaziz/vector_v1)
 
