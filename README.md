@@ -1,3 +1,9 @@
+[![License](https://img.shields.io/github/license/Hazem-M-Abdelaziz/vector_v1.svg)](LICENSE)
+[![Top Language](https://img.shields.io/github/languages/top/Hazem-M-Abdelaziz/vector_v1.svg)](https://github.com/Hazem-M-Abdelaziz/vector_v1)
+[![Last Commit](https://img.shields.io/github/last-commit/Hazem-M-Abdelaziz/vector_v1.svg)](https://github.com/Hazem-M-Abdelaziz/vector_v1/commits/main)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Hazem-M-Abdelaziz/vector_v1?style=social)](https://github.com/Hazem-M-Abdelaziz/vector_v1)
+
+
 # 🚗 Vector_V1 — Scaled Vehicle Platform by MRS Lab (GUC)
 
 ## 📍 Overview
@@ -142,8 +148,7 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
 After doing so, your interface should look something like this:
 ![Image](https://github.com/user-attachments/assets/fa504afa-ca80-4a86-a9a3-0be70e3fb95b)
 
-⏯️ And now, you are ready to mess around with vector!
-
+🚀 Let’s get started: your scaled vehicle platform is ready for experimentation!
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ef658e9f-489a-4644-aba1-8ce0a6671331" width="100%">
 </p>
