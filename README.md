@@ -7,7 +7,7 @@
 # 🚗 vector_v1 — Scaled Vehicle Platform by MRS Lab (GUC)
 
 ## 📍 Overview
-**Vector_V1** represents the **first prototype of a scaled autonomous vehicle** developed at the **Multi-Robot Systems (MRS) Lab**, German University in Cairo (GUC).  
+**vector_v1** represents the **first prototype of a scaled autonomous vehicle** developed at the **Multi-Robot Systems (MRS) Lab**, German University in Cairo (GUC).  
 This platform serves as an experimental testbed for **cooperative autonomous systems**, enabling research on multi-vehicle coordination, control, and perception in real-world environments.
 
 vector_v1 aims to provide an accessible and modular hardware–software framework for scaled vehicle experimentation.  
@@ -218,7 +218,7 @@ Special thanks to:
 
 - **Prof. Omar M. Shehata** — Associate Professor in the Mechatronics Engineering Department and Director of the Multi-Robot Systems (MRS) Lab, for providing the opportunity and guidance to be part of this project.
 
-- **Eng. Mohammed Sokkar** — for his valuable contributions in designing the **Vector_V1** scaled vehicle.
+- **Eng. Mohammed Sokkar** — for his valuable contributions in designing the **vector_v1** scaled vehicle.
 - and the whole **MRS Research Group** for the great experience.
 
 ---
