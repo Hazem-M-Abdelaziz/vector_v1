@@ -8,7 +8,7 @@
 
 ## 📍 Overview
 **Vector_V1** represents the **first prototype of a scaled autonomous vehicle** developed at the **Multi-Robot Systems (MRS) Lab**, German University in Cairo (GUC).  
-This platform serves as an experimental testbed for **cooperative autunomous systems**, enabling research on multi-vehicle coordination, control, and perception in real-world environments.
+This platform serves as an experimental testbed for **cooperative autonomous systems**, enabling research on multi-vehicle coordination, control, and perception in real-world environments.
 
 vector_v1 aims to provide an accessible and modular hardware–software framework for scaled vehicle experimentation.  
 The version is focused on **enabling manual and remote control** using the **Logitech G920 racing wheel and pedal set**.
@@ -134,7 +134,7 @@ After getting a feedback on the controller attributes, simple steps are followed
 ## 🔤 Full guide to setup and use the project
 
 ### 1. First of all you need to establish the ROS 2 subnetwork for the project, this version uses local pc as a master connected to the logitech set and sends controlling commands for the vehicle which has a rpi mounted as the slave.
-   So both of them needs to be connected to the same local network to be visible to each others.
+   So both of them needs to be connected to the same local network to be visible to each other.
 - OS used for both edges:
   ```
   Distributor ID:	Ubuntu
