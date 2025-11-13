@@ -4,7 +4,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Hazem-M-Abdelaziz/vector_v1?style=social)](https://github.com/Hazem-M-Abdelaziz/vector_v1)
 
 
-# 🚗 Vector_V1 — Scaled Vehicle Platform by MRS Lab (GUC)
+# 🚗 vector_v1 — Scaled Vehicle Platform by MRS Lab (GUC)
 
 ## 📍 Overview
 **Vector_V1** represents the **first prototype of a scaled autonomous vehicle** developed at the **Multi-Robot Systems (MRS) Lab**, German University in Cairo (GUC).  
