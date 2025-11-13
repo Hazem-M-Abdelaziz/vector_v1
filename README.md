@@ -118,7 +118,7 @@ Attached in `mathworks_controllers/` directory you can see two files used to get
    - For the rpi:
        have the `rpi_workspaces` setup and sourced to also identify custom message for the controller and the arduino controller node.
 
-    For more information on how to setup ROS 2 subnet checkout [Link](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
+    For more information on how to setup ROS 2 subnet checkout this [LinkedIn post](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
 
 5. Upload the arduino script to prepare it for recieving commands from the rpi using serial USB.
 
