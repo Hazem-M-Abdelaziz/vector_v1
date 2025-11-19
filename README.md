@@ -74,7 +74,7 @@ Repository_Root/
 └── README.md                                # Project documentation
 ```
 All scripts and models are documented with comments.
-
+*You could also combine nodes and messages packages into one workspace but it's also OK to separate the two workspaces*
 ---
 
 ## 🧰 MathWorks tools
@@ -253,6 +253,10 @@ and when uploading, select rp2040 as the target device.
    
    ```bash
    echo $ROS_DOMAIN_ID
+   ```
+   ⚠️ It's also recommend to source the domain id parameter in the `~/.bashrc` script by adding the following:
+   ```bash
+   export ROS_DOMAIN_ID=<ID_VALUE>
    ```
 
 ### 6. Run your ROS 2 node on local machine after plugging-in the logitech controller:
