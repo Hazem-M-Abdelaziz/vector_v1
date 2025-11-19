@@ -222,9 +222,21 @@ After getting a feedback on the controller attributes, simple steps are followed
    - For the rpi:
        have the `rpi_workspaces` setup and sourced to also identify custom message for the controller and the arduino controller node.
 
+⚠️ it is recommended to source the workspaces for both devices into ~/.bashrc script to avoid sourcing it multiple times.
+Add these lines to your `~/.bashrc` script.
+```bash
+source ~/ros2_ws/install/setup.bash
+source ~/ros2_custom_interface/install.setup.bash
+```
+
    For more information on how to setup ROS 2 subnet checkout this [LinkedIn post](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
 
 ### 3. Upload the arduino script to prepare it for recieving commands from the rpi using serial USB.
+Using Arduino IDE, if you're using Arduino nano rp2040, you need to install the following library
+```
+Arduino Mbed OS Nano Boards
+```
+and when uploading, select rp2040 as the target device.
 
 ### 4. Connect your rpi to the local pc using ssh on your local machine terminal:
    ```bash
