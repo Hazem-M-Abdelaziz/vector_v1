@@ -255,9 +255,6 @@ and when uploading, select rp2040 as the target device.
    echo $ROS_DOMAIN_ID
    ```
    ⚠️ It's also recommend to source the domain id parameter in the `~/.bashrc` script by adding the following:
-   ```bash
-   export ROS_DOMAIN_ID=<ID_VALUE>
-   ```
 
 ### 6. Run your ROS 2 node on local machine after plugging-in the logitech controller:
    
