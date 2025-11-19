@@ -150,6 +150,68 @@ After getting a feedback on the controller attributes, simple steps are followed
   ROS_DISTRO=jazzy
   ```
 
+  ⚠️ If you're using rpi 4, it is recommended to use Ubuntu 24.04 server version.
+
+  #### How to get Ubutnu 24.04 server on rpi ?
+  Using raspberry pi imager application on your machine, after inserting a SD card, choose the desired OS which is `Ubuntu 24.04 Server` in this case, and choose the attached SD card to flash the image.
+  Finally before flashing the image edit setting and set the following (Hostname, Username, Password, Wireless LAN configuration for your local network, country, and timezone)
+
+  ### Setup static ip address for the rpi and enable SSH.
+  After Ubuntu 24.04 server installation on the rpi, check the netplan configuration file,
+  ```bash
+  ls /etc/netplan
+  ```
+  If none exists, create one
+  ```bash
+  sudo nano /etc/netplan/01-netcfg.yaml
+  ```
+  before filling the configuration file, check the name of the interface using
+  ```bash
+  ip link
+  ```
+  if it is wlan0, add the following to. the `01-netcfg.yaml` file
+  ```
+  network:
+  version: 2
+  renderer: networkd
+  wifis:
+    wlan0:
+      dhcp4: false
+      addresses:
+        - 192.168.1.200/24
+      routes:
+        - to: default
+          via: 192.168.1.1
+      nameservers:
+        addresses: [8.8.8.8, 1.1.1.1]
+      access-points:
+        "YourWiFiName":
+          password: "YourWiFiPassword"
+  ```
+  replacing the name and password to your local nework name and password, and your desired static ip address in the  addresses section.
+  Apply the configuration
+  ```bash
+  sudo netplan generate
+  sudo netplan apply
+  ```
+  Finally, reboot
+  ```bash
+  sudo reboot
+  ```
+
+
+  ### Enabling SSH
+  After the static ip addresses configuration, you need to enable SSH on the rpi using
+  ```bash
+  sudo systemctl enable ssh
+  sudo systemctl start ssh
+  ```
+  and to make sure it is running correctly, check the ssh status using
+  ```bash
+  sudo systemctl status ssh
+  ```
+  
+
 ### 2. setup and build both system properly to be able to communicate correctly.
   
    Your network should look like this:
