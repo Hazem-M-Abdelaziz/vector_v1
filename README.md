@@ -226,7 +226,7 @@ After getting a feedback on the controller attributes, simple steps are followed
 Add these lines to your `~/.bashrc` script.
 ```bash
 source ~/ros2_ws/install/setup.bash
-source ~/ros2_custom_interface/install.setup.bash
+source ~/ros2_custom_interface/install/setup.bash
 ```
 
    For more information on how to setup ROS 2 subnet checkout this [LinkedIn post](https://www.linkedin.com/posts/hazem-m-abdelaziz_ros-communication-activity-7271900224187490304-pxt1?utm_source=share&utm_medium=member_android&rcm=ACoAADzbBB0B-2WWWlStKW0_GFrplsQKyY9Wk4w)
